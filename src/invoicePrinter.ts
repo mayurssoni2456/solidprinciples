@@ -3,7 +3,7 @@ import Invoice from "./invoice";
 
 export default class InvoicePrinter implements IPrinter {;
 
-    // we can also have a separte implementation for Print formatter 
+    // separte implementation for Print formatter can be implemented
     print(invoice: Invoice): void {
         console.log("=================================");
         console.log(`Product Name: ${invoice.product.name}`)
