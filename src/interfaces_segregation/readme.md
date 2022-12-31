@@ -1,0 +1,1 @@
+Interface Segregation - We should avoid forcing classes implemented unwatned method and segregate the interface based on the function
